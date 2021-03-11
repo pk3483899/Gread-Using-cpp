@@ -1,0 +1,35 @@
+// Program to calulate the grade of a student.
+#include<iostream>
+using namespace std;
+int main()
+{
+
+     int a;
+     cout<<"Enter a number to evaluate"<<endl;
+     cin>>a;
+     if(a>90)
+     {
+          cout<<"Gread A"<<endl;
+     }
+     else if(a>70&&a<=90)
+     {
+          cout<<"Gread B"<<endl;
+     }
+     else if(a>50&&a<=70)
+     {
+          cout<<"Gread C"<<endl;
+     }
+     else if(a>40&&a<=50)
+     {
+          cout<<"Gread D"<<endl;
+     }
+     else if(a>0&&a<=40)
+     {
+          cout<<"Gread E"<<endl;
+     }
+     else
+     {
+          cout<<"Hey, You have entered an invalid number"<<endl;
+     }
+return 0;
+}
